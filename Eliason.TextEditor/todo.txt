@@ -1,0 +1,20 @@
+﻿DefaultSettings
+	Lägg till manuellt:
+		* Alla som ärver från TextStyleBase för GetTextStyles()
+		* Alla som ärver från TokenTypeBase för GetTemplateTokenTypes()
+
+
+TextDocumentByLines
+	* Helt fel scope -- ska inte ha referens till ITextDocument, ska ha reference till ITextView, eftersom det kan vara olika stilar per ITextView. ITextDocument är neutral!
+
+TextSegmentStyledManager
+	* Ska INTE tillåta AddStyle -- varje stil kan vara olika per olika ITextView
+
+
+* TextColumn
+	* Försök tänk om vad en TextColumn är... ska det vara olika ITextDocument? Olika ITextView med kopplade värden så som höjd (så de blir lika långa) och synkad scrollning?
+		Känns som för mycket jobb att faktiskt återuppfinna hjulet för vad som ska vara möjligt inuti en TextColumn, när vi redan har en ITextView
+
+
+Kolla att SetClientSizeCore verkligen fungerar rätt efter den har satts i TextView.OnLayout()
+Sluta ärva från Control -- ha istället en "Host", som vanligt fall såklart kan vara en WinForms Control

@@ -1,0 +1,2 @@
+﻿Dokument som bygger på JSON-fil som kan innehålla metadata
+Gör om TextDocument så den blir mycket mer generell och funka för båda ByLines och den här... just nu är det *väldigt* många metoder som är överflödiga eller för hårt kopplade till radbaserat dokument

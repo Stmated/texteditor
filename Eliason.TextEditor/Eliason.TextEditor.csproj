@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68942E75-5200-4B1D-B420-ABD485BAB8B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Eliason.TextEditor</RootNamespace>
+    <AssemblyName>Eliason.TextEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlterTextSegmentArgs.cs" />
+    <Compile Include="AskResult.cs" />
+    <Compile Include="ByInterface.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Comparison\Diff.cs" />
+    <Compile Include="Extensions\ExtensionMethods.cs" />
+    <Compile Include="IAutoSaver.cs" />
+    <Compile Include="ICaret.cs" />
+    <Compile Include="ICloneable`1.cs" />
+    <Compile Include="INotifier.cs" />
+    <Compile Include="IScrollAware.cs" />
+    <Compile Include="IScrollHost.cs" />
+    <Compile Include="ISettings.cs" />
+    <Compile Include="ITextBase.cs" />
+    <Compile Include="ITextDocument.cs" />
+    <Compile Include="ITextDocumentRenderer.cs" />
+    <Compile Include="ITextEditor.cs" />
+    <Compile Include="ITextSegment.cs" />
+    <Compile Include="ITextSegmentStyled.cs" />
+    <Compile Include="ITextSegmentStyledManager.cs" />
+    <Compile Include="ITextSegmentVisual.cs" />
+    <Compile Include="ITextView.cs" />
+    <Compile Include="NotifierSelectRequest.cs" />
+    <Compile Include="NotifierInputRequest.cs" />
+    <Compile Include="NotifierSelectResponse.cs" />
+    <Compile Include="NotifierInputResponse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings.Designer.cs">
+      <DependentUpon>Strings.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Native\NativeConstants.cs" />
+    <Compile Include="TextDocumentBase.cs" />
+    <Compile Include="TextDocument\ByLines\TextDocumentByLines.cs" />
+    <Compile Include="TextDocument\ByLines\TextDocumentByLines.Renderer.cs" />
+    <Compile Include="TextDocument\ByLines\TextDocumentByLines.TextAnchor.cs" />
+    <Compile Include="TextDocument\ByLines\TextDocumentByLines.TextLine.cs" />
+    <Compile Include="TextDocument\ByLines\TextDocumentByLines.TextSegment.cs" />
+    <Compile Include="TextEditor\TextEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextSegmentVisualInfos.cs" />
+    <Compile Include="TextStyles\PenType.cs" />
+    <Compile Include="TextStyles\RenderState.cs" />
+    <Compile Include="TextStyles\RenderStateItem.cs" />
+    <Compile Include="TextStyles\StyleRenderInfo.cs" />
+    <Compile Include="TextStyles\TextStyleBase.cs" />
+    <Compile Include="TextStyles\TextStyleDisplayMode.cs" />
+    <Compile Include="TextStyles\TextStyleHighlightBase.cs" />
+    <Compile Include="TextStyles\TextStyleManager.cs" />
+    <Compile Include="TextStyles\TextStyleManual.cs" />
+    <Compile Include="TextStyles\TextStyleNote.cs" />
+    <Compile Include="TextStyles\TextStylePaintMode.cs" />
+    <Compile Include="TextStyles\TextStyleSpellcheck.cs" />
+    <Compile Include="TextStyles\TextStyleTextColorer.cs" />
+    <Compile Include="TextStyles\TextStyleType.cs" />
+    <Compile Include="TextStyles\TextStyleURL.cs" />
+    <Compile Include="TextTemplates\Template.cs" />
+    <Compile Include="TextTemplates\TemplateFactory.cs" />
+    <Compile Include="TextTemplates\Token.cs" />
+    <Compile Include="TextTemplates\TokenAttribute.cs" />
+    <Compile Include="TextTemplates\TokenAttributes\AttribTypeContent.cs" />
+    <Compile Include="TextTemplates\TokenAttributes\AttribTypeDefault.cs" />
+    <Compile Include="TextTemplates\TokenAttributes\AttribTypeLength.cs" />
+    <Compile Include="TextTemplates\TokenAttributes\AttribTypeMathMinus.cs" />
+    <Compile Include="TextTemplates\TokenAttributes\AttribTypeMathPlus.cs" />
+    <Compile Include="TextTemplates\TokenAttributes\AttribTypeOrder.cs" />
+    <Compile Include="TextTemplates\TokenAttributes\AttribTypeQuantity.cs" />
+    <Compile Include="TextTemplates\TokenAttributes\AttribTypeSeparator.cs" />
+    <Compile Include="TextTemplates\TokenAttributeTypeBase.cs" />
+    <Compile Include="TextTemplates\TokenTypeBase.cs" />
+    <Compile Include="TextTemplates\TokenTypes\TokenTypeDate.cs" />
+    <Compile Include="TextTemplates\TokenTypes\TokenTypeFile.cs" />
+    <Compile Include="TextTemplates\TokenTypes\TokenTypeFreetext.cs" />
+    <Compile Include="TextTemplates\TokenTypes\TokenTypeLongDate.cs" />
+    <Compile Include="TextView\Caret.cs" />
+    <Compile Include="TextView\IMEComposition.cs" />
+    <Compile Include="TextView\SelectionChangedArgs.cs" />
+    <Compile Include="TextView\TextColumnBase.cs" />
+    <Compile Include="TextView\TextColumnLineNumber.cs" />
+    <Compile Include="TextView\TextColumnNotes.cs" />
+    <Compile Include="TextView\TextView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextView\TextView.Keyboard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextView\TextView.Mouse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextView\TextView.Paint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextView\TextView.PointToChar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextView\TextView.Style.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TextView\TextView.WndProc.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UndoRedo\IUndoRedo.cs" />
+    <Compile Include="UndoRedo\IUndoRedoHandler.cs" />
+    <Compile Include="UndoRedo\TextAddedUndoRedoCommand.cs" />
+    <Compile Include="UndoRedo\TextBaseUndoRedoCommand.cs" />
+    <Compile Include="UndoRedo\TextRemovedUndoRedoCommand.cs" />
+    <Compile Include="UndoRedo\UndoRedoCommandBase.cs" />
+    <Compile Include="UndoRedo\UndoRedoManager.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="WaitUIHandler.cs" />
+    <Compile Include="WordSegment.cs" />
+    <Compile Include="WordWrapChangeEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TextDocument\Json\todo.txt" />
+    <Content Include="todo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Eliason.Common\Eliason.Common\Eliason.Common.csproj">
+      <Project>{463a2426-1de4-4145-bce9-2aae2e49ed22}</Project>
+      <Name>Eliason.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

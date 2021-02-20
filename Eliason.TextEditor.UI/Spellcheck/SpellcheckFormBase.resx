@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbxSuggestions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbxSuggestions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 75</value>
+  </data>
+  <data name="lbxSuggestions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 212</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbxSuggestions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbxSuggestions.Name" xml:space="preserve">
+    <value>lbxSuggestions</value>
+  </data>
+  <data name="&gt;&gt;lbxSuggestions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbxSuggestions.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;lbxSuggestions.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnAddWord.Name" xml:space="preserve">
+    <value>btnAddWord</value>
+  </data>
+  <data name="&gt;&gt;btnAddWord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddWord.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnAddWord.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblSuggestions.Name" xml:space="preserve">
+    <value>lblSuggestions</value>
+  </data>
+  <data name="&gt;&gt;lblSuggestions.Type" xml:space="preserve">
+    <value>libCommon.UI.HeaderLabel, libCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblSuggestions.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;lblSuggestions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblReplaceWith.Name" xml:space="preserve">
+    <value>lblReplaceWith</value>
+  </data>
+  <data name="&gt;&gt;lblReplaceWith.Type" xml:space="preserve">
+    <value>libCommon.UI.HeaderLabel, libCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblReplaceWith.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;lblReplaceWith.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Name" xml:space="preserve">
+    <value>btnReplaceAll</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnReplace.Name" xml:space="preserve">
+    <value>btnReplace</value>
+  </data>
+  <data name="&gt;&gt;btnReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplace.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnReplace.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnIgnoreWord.Name" xml:space="preserve">
+    <value>btnIgnoreWord</value>
+  </data>
+  <data name="&gt;&gt;btnIgnoreWord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIgnoreWord.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnIgnoreWord.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnIgnore.Name" xml:space="preserve">
+    <value>btnIgnore</value>
+  </data>
+  <data name="&gt;&gt;btnIgnore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIgnore.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnIgnore.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbxReplaceWith.Name" xml:space="preserve">
+    <value>tbxReplaceWith</value>
+  </data>
+  <data name="&gt;&gt;tbxReplaceWith.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxReplaceWith.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;tbxReplaceWith.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tpSpellcheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpSpellcheck.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpSpellcheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 298</value>
+  </data>
+  <data name="tpSpellcheck.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpSpellcheck.Text" xml:space="preserve">
+    <value>Spellcheck text</value>
+  </data>
+  <data name="&gt;&gt;tpSpellcheck.Name" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;tpSpellcheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpSpellcheck.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tpSpellcheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDownloadOO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 177</value>
+  </data>
+  <data name="btnDownloadOO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>437, 23</value>
+  </data>
+  <data name="btnDownloadOO.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnDownloadOO.Text" xml:space="preserve">
+    <value>Download Open Office Lexicons/Thesaurus</value>
+  </data>
+  <data name="&gt;&gt;btnDownloadOO.Name" xml:space="preserve">
+    <value>btnDownloadOO</value>
+  </data>
+  <data name="&gt;&gt;btnDownloadOO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDownloadOO.Parent" xml:space="preserve">
+    <value>tpOptions</value>
+  </data>
+  <data name="&gt;&gt;btnDownloadOO.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gbxIgnoreOptions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="hlblLinesWithPrefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 114</value>
+  </data>
+  <data name="hlblLinesWithPrefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>425, 14</value>
+  </data>
+  <data name="hlblLinesWithPrefix.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="hlblLinesWithPrefix.Text" xml:space="preserve">
+    <value>Lines that start with any character:</value>
+  </data>
+  <data name="&gt;&gt;hlblLinesWithPrefix.Name" xml:space="preserve">
+    <value>hlblLinesWithPrefix</value>
+  </data>
+  <data name="&gt;&gt;hlblLinesWithPrefix.Type" xml:space="preserve">
+    <value>libCommon.UI.HeaderLabel, libCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;hlblLinesWithPrefix.Parent" xml:space="preserve">
+    <value>gbxIgnoreOptions</value>
+  </data>
+  <data name="&gt;&gt;hlblLinesWithPrefix.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbxLinesWithPrefix.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 134</value>
+  </data>
+  <data name="tbxLinesWithPrefix.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 20</value>
+  </data>
+  <data name="tbxLinesWithPrefix.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbxLinesWithPrefix.Name" xml:space="preserve">
+    <value>tbxLinesWithPrefix</value>
+  </data>
+  <data name="&gt;&gt;tbxLinesWithPrefix.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxLinesWithPrefix.Parent" xml:space="preserve">
+    <value>gbxIgnoreOptions</value>
+  </data>
+  <data name="&gt;&gt;tbxLinesWithPrefix.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbxEnableInlineSpellcheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxEnableInlineSpellcheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 22</value>
+  </data>
+  <data name="cbxEnableInlineSpellcheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 17</value>
+  </data>
+  <data name="cbxEnableInlineSpellcheck.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cbxEnableInlineSpellcheck.Text" xml:space="preserve">
+    <value>Enable inline spellchecking</value>
+  </data>
+  <data name="&gt;&gt;cbxEnableInlineSpellcheck.Name" xml:space="preserve">
+    <value>cbxEnableInlineSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;cbxEnableInlineSpellcheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxEnableInlineSpellcheck.Parent" xml:space="preserve">
+    <value>gbxIgnoreOptions</value>
+  </data>
+  <data name="&gt;&gt;cbxEnableInlineSpellcheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbxIgnoreAllCaps.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxIgnoreAllCaps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 45</value>
+  </data>
+  <data name="cbxIgnoreAllCaps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 17</value>
+  </data>
+  <data name="cbxIgnoreAllCaps.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cbxIgnoreAllCaps.Text" xml:space="preserve">
+    <value>Ignore words that are all caps (like OMFG)</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreAllCaps.Name" xml:space="preserve">
+    <value>cbxIgnoreAllCaps</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreAllCaps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreAllCaps.Parent" xml:space="preserve">
+    <value>gbxIgnoreOptions</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreAllCaps.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbxIgnoreWordsWithNumbers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxIgnoreWordsWithNumbers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 68</value>
+  </data>
+  <data name="cbxIgnoreWordsWithNumbers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 17</value>
+  </data>
+  <data name="cbxIgnoreWordsWithNumbers.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cbxIgnoreWordsWithNumbers.Text" xml:space="preserve">
+    <value>Ignore words with numbers</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreWordsWithNumbers.Name" xml:space="preserve">
+    <value>cbxIgnoreWordsWithNumbers</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreWordsWithNumbers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreWordsWithNumbers.Parent" xml:space="preserve">
+    <value>gbxIgnoreOptions</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreWordsWithNumbers.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbxIgnoreWordsWithAsianChars.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxIgnoreWordsWithAsianChars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 91</value>
+  </data>
+  <data name="cbxIgnoreWordsWithAsianChars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 17</value>
+  </data>
+  <data name="cbxIgnoreWordsWithAsianChars.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cbxIgnoreWordsWithAsianChars.Text" xml:space="preserve">
+    <value>Ignore words containing asian characters</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreWordsWithAsianChars.Name" xml:space="preserve">
+    <value>cbxIgnoreWordsWithAsianChars</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreWordsWithAsianChars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreWordsWithAsianChars.Parent" xml:space="preserve">
+    <value>gbxIgnoreOptions</value>
+  </data>
+  <data name="&gt;&gt;cbxIgnoreWordsWithAsianChars.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gbxIgnoreOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="gbxIgnoreOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>437, 165</value>
+  </data>
+  <data name="gbxIgnoreOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gbxIgnoreOptions.Text" xml:space="preserve">
+    <value>Ignore options</value>
+  </data>
+  <data name="&gt;&gt;gbxIgnoreOptions.Name" xml:space="preserve">
+    <value>gbxIgnoreOptions</value>
+  </data>
+  <data name="&gt;&gt;gbxIgnoreOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbxIgnoreOptions.Parent" xml:space="preserve">
+    <value>tpOptions</value>
+  </data>
+  <data name="&gt;&gt;gbxIgnoreOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tpOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 298</value>
+  </data>
+  <data name="tpOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpOptions.Text" xml:space="preserve">
+    <value>Spellcheck options</value>
+  </data>
+  <data name="&gt;&gt;tpOptions.Name" xml:space="preserve">
+    <value>tpOptions</value>
+  </data>
+  <data name="&gt;&gt;tpOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpOptions.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tpOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>457, 324</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnAddWord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnAddWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 148</value>
+  </data>
+  <data name="btnAddWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="btnAddWord.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnAddWord.Text" xml:space="preserve">
+    <value>&amp;Add word</value>
+  </data>
+  <data name="&gt;&gt;btnAddWord.Name" xml:space="preserve">
+    <value>btnAddWord</value>
+  </data>
+  <data name="&gt;&gt;btnAddWord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddWord.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnAddWord.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSuggestions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblSuggestions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="lblSuggestions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 14</value>
+  </data>
+  <data name="lblSuggestions.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblSuggestions.Text" xml:space="preserve">
+    <value>Suggestions</value>
+  </data>
+  <data name="&gt;&gt;lblSuggestions.Name" xml:space="preserve">
+    <value>lblSuggestions</value>
+  </data>
+  <data name="&gt;&gt;lblSuggestions.Type" xml:space="preserve">
+    <value>libCommon.UI.HeaderLabel, libCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblSuggestions.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;lblSuggestions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblReplaceWith.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblReplaceWith.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="lblReplaceWith.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 14</value>
+  </data>
+  <data name="lblReplaceWith.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblReplaceWith.Text" xml:space="preserve">
+    <value>Replace with</value>
+  </data>
+  <data name="&gt;&gt;lblReplaceWith.Name" xml:space="preserve">
+    <value>lblReplaceWith</value>
+  </data>
+  <data name="&gt;&gt;lblReplaceWith.Type" xml:space="preserve">
+    <value>libCommon.UI.HeaderLabel, libCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblReplaceWith.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;lblReplaceWith.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 270</value>
+  </data>
+  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnReplaceAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnReplaceAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 104</value>
+  </data>
+  <data name="btnReplaceAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="btnReplaceAll.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnReplaceAll.Text" xml:space="preserve">
+    <value>Replace &amp;all</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Name" xml:space="preserve">
+    <value>btnReplaceAll</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnReplaceAll.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnReplace.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnReplace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 75</value>
+  </data>
+  <data name="btnReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="btnReplace.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnReplace.Text" xml:space="preserve">
+    <value>&amp;Replace</value>
+  </data>
+  <data name="&gt;&gt;btnReplace.Name" xml:space="preserve">
+    <value>btnReplace</value>
+  </data>
+  <data name="&gt;&gt;btnReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReplace.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnReplace.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnIgnoreWord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnIgnoreWord.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 35</value>
+  </data>
+  <data name="btnIgnoreWord.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="btnIgnoreWord.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnIgnoreWord.Text" xml:space="preserve">
+    <value>Ignore &amp;word</value>
+  </data>
+  <data name="&gt;&gt;btnIgnoreWord.Name" xml:space="preserve">
+    <value>btnIgnoreWord</value>
+  </data>
+  <data name="&gt;&gt;btnIgnoreWord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIgnoreWord.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnIgnoreWord.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnIgnore.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnIgnore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 6</value>
+  </data>
+  <data name="btnIgnore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="btnIgnore.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnIgnore.Text" xml:space="preserve">
+    <value>&amp;Ignore</value>
+  </data>
+  <data name="&gt;&gt;btnIgnore.Name" xml:space="preserve">
+    <value>btnIgnore</value>
+  </data>
+  <data name="&gt;&gt;btnIgnore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIgnore.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;btnIgnore.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbxReplaceWith.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbxReplaceWith.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="tbxReplaceWith.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 20</value>
+  </data>
+  <data name="tbxReplaceWith.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbxReplaceWith.Name" xml:space="preserve">
+    <value>tbxReplaceWith</value>
+  </data>
+  <data name="&gt;&gt;tbxReplaceWith.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxReplaceWith.Parent" xml:space="preserve">
+    <value>tpSpellcheck</value>
+  </data>
+  <data name="&gt;&gt;tbxReplaceWith.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>457, 324</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>350, 350</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Spellchecking</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SpellcheckFormBase</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

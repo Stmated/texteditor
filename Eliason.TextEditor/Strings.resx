@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="TextControl_Style_URL_Description" xml:space="preserve">
+    <value>Finds and colors any URLs that are in the text.</value>
+  </data>
+  <data name="TextControl_Style_URL_Name" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="TextControl_Style_Note_Name" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="TextControl_Style_Note_Description" xml:space="preserve">
+    <value>Insert custom notes into the text that are only saved in Scanlationshop and not in the actual text.</value>
+  </data>
+  <data name="TextControl_AutoSave_MultipleOpenOptions" xml:space="preserve">
+    <value>There are multiple auto-saves for the text file '{0}'. Select an auto-saved file (Enter), or cancel (Esc).</value>
+  </data>
+  <data name="TextControl_AutoSave_MultipleOpenOptions_Title" xml:space="preserve">
+    <value>Available auto-save files</value>
+  </data>
+  <data name="TextControl_AutoSave_OneOpenOption_Ask" xml:space="preserve">
+    <value>The file you are trying to open was last changed {0}, but there is an autosaved file in your temporary folder last changed {1}. Would you like to open this autosaved file instead?</value>
+  </data>
+  <data name="TextControl_AutoSave_OpenInformation" xml:space="preserve">
+    <value>Remember that the current filepath is that to the temporary. Find your original file and overwrite it, if there is nothing wrong with this temporary one.</value>
+  </data>
+  <data name="TextControl_Close_SaveDiscardCancel" xml:space="preserve">
+    <value>There are changes pending for the script file '{0}'. Do you want to save it before closing?</value>
+  </data>
+  <data name="TextControl_Close_SaveDiscardCancel_New" xml:space="preserve">
+    <value>This new script file has never been saved and has changes pending. Do you want to save it before closing?</value>
+  </data>
+  <data name="TextControl_CouldNotAutoSave" xml:space="preserve">
+    <value>Could not save the autosave file, which means you have probably inputted a wrong autosave location, or your account does not have access to your temporary folder; you are then forced to manually write another location in the preferences.</value>
+  </data>
+  <data name="TextControl_CouldNotCopyToClipboardBecause" xml:space="preserve">
+    <value>Could not copy text to the clipboard. The stated reason was: '{0}'.</value>
+  </data>
+  <data name="TextControl_CouldNotCopyToClipboardBecauseOf" xml:space="preserve">
+    <value>Could not copy text to the clipboard. The stated reason was: '{0}'. This was because there is already another application actively using the clipboad. The guess is that that application is '{1}'. Please try again later.</value>
+  </data>
+  <data name="TextControl_Open_ChangesPending_Save_Ask" xml:space="preserve">
+    <value>There are changes pending for the file '{0}', do you want to save it before opening a new file?</value>
+  </data>
+  <data name="TextControl_Save_SinglebyteToMultibyte_Ask" xml:space="preserve">
+    <value>The text file '{0}' that you are trying to save is a singlebyte file, but the text you are trying to save has multibyte characters. Do you want to convert the file to Unicode (UTF-8)?</value>
+  </data>
+  <data name="TextControl_Style_Highlight_Description" xml:space="preserve">
+    <value>Finds and colors the words that are set to be found.</value>
+  </data>
+  <data name="TextControl_Style_Highlight_Name" xml:space="preserve">
+    <value>Highlighting</value>
+  </data>
+  <data name="TextControl_Style_Spellcheck_Description" xml:space="preserve">
+    <value>Red (by default) underline for spellchecking.</value>
+  </data>
+  <data name="TextControl_Title" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="TextControl_UndoRedo_Added" xml:space="preserve">
+    <value>added '{0}'</value>
+  </data>
+  <data name="TextControl_UndoRedo_Added_Long" xml:space="preserve">
+    <value>added '{0}...'</value>
+  </data>
+  <data name="TextControl_UndoRedo_Removed" xml:space="preserve">
+    <value>removed '{0}'</value>
+  </data>
+  <data name="TextControl_UndoRedo_Removed_Long" xml:space="preserve">
+    <value>removed '{0}...'</value>
+  </data>
+  <data name="FileXCouldNotLoad" xml:space="preserve">
+    <value>Could not load the text file '{0}'.</value>
+  </data>
+  <data name="FileXDoesNotExist" xml:space="preserve">
+    <value>The text file '{0}' does not exist.</value>
+  </data>
+  <data name="FindReplace_Title" xml:space="preserve">
+    <value>Find &amp; Replace</value>
+  </data>
+  <data name="Languages_Download_RestartRequired" xml:space="preserve">
+    <value>The application must be restarted for the new languages to be found. Do you want to restart now?</value>
+  </data>
+  <data name="Spellchecking_CannotAddEmptyWord" xml:space="preserve">
+    <value>You cannot add a word with no content.</value>
+  </data>
+  <data name="Spellchecking_EndOfText_Success" xml:space="preserve">
+    <value>Spellcheck complete. Has arrived at the end of the text.</value>
+  </data>
+  <data name="Spellchecking_LexiconResourcesDoesNotExist" xml:space="preserve">
+    <value>The '{0}' directory does not exist. You have no lexicon/dictionary to spellcheck from.</value>
+  </data>
+  <data name="Spellchecking_LexiconsAreNotInstalled_AskDownload" xml:space="preserve">
+    <value>You have no installed lexicons to spellcheck from for the language '{0}'. Would you like to download some now?</value>
+  </data>
+  <data name="Spellchecking_TextControlIsEmpty" xml:space="preserve">
+    <value>There is no text in the text control to spellcheck.</value>
+  </data>
+  <data name="Spellchecking_Title" xml:space="preserve">
+    <value>Spellchecking</value>
+  </data>
+  <data name="Text_Template_DynamicTokenNotFound" xml:space="preserve">
+    <value>There was no handler for the text templates for dynamic template tokens. This should never happen.</value>
+  </data>
+  <data name="TextControl_TextTemplates_Title" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="TextControl_TextTemples_TextFileMustBeSaved" xml:space="preserve">
+    <value>Text file must be saved to be able to execute a template</value>
+  </data>
+  <data name="Native_ItemSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="TextControl_Template_FileExtensionMustBeTxt" xml:space="preserve">
+    <value>The file extension for a template file must be .txt</value>
+  </data>
+</root>
