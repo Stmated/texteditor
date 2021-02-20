@@ -1,12 +1,8 @@
-﻿#region
-
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-
-#endregion
 
 namespace Eliason.TextEditor.SearchReplace
 {

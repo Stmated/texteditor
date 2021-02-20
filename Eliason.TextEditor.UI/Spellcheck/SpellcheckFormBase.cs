@@ -1,13 +1,9 @@
-﻿#region
-
-using System;
+﻿using System;
 using System.ComponentModel;
 using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using Eliason.TextEditor.TextStyles;
-
-#endregion
 
 namespace Eliason.TextEditor.Spellcheck
 {

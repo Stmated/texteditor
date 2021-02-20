@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Eliason.TextEditor.UI</RootNamespace>
     <AssemblyName>Eliason.TextEditor.UI</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <LangVersion>8</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -73,7 +74,7 @@
       <Project>{EDEE09B6-71BA-4FE9-823C-D1EBD27409AB}</Project>
       <Name>Eliason.Scrollbar</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Eliason.TextEditor\Eliason.TextEditor\Eliason.TextEditor.csproj">
+    <ProjectReference Include="..\Eliason.TextEditor\Eliason.TextEditor.csproj">
       <Project>{68942e75-5200-4b1d-b420-abd485bab8b5}</Project>
       <Name>Eliason.TextEditor</Name>
     </ProjectReference>

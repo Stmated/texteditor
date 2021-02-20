@@ -108,7 +108,7 @@ namespace Eliason.TextEditor.TextStyles
                     return null;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
 

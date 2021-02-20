@@ -6,8 +6,6 @@ namespace Eliason.TextEditor.TextView
 {
     public abstract class TextColumnBase : IDisposable
     {
-        private bool enabled;
-
         public abstract bool FloatLeft { get; }
 
         public abstract string Key { get; }
